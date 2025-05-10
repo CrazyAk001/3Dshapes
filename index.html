@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>3D Shapes</h1>
+    </div>
+    <div class="container">
+       
+         <!-- rectangular card -->
+          <div class="card">
+             <h2>Rectangular</h2>
+            <img src="rectangular.png" alt="Rectangular-Image" class="rectangular-img"> 
+            <label>Length:
+                <input type="number" placeholder="Enter Length" id="rectangular-length">
+            </label>
+            <label>Height:
+                <input type="number" placeholder="Enter Height" id="rectangular-height">
+            </label>
+            <label>Breadth:
+                <input type="number" placeholder="Enter Breadth" id="rectangular-breadth">
+            </label>
+            <button onclick="calculaterectangular()">Calculate</button>
+            <div class="result" id="rectangular-result"></div>
+          </div>
+          <!-- cone card -->
+           <div class="card">
+             <h2>Cone</h2>
+            <img src="cone.png" alt="Cone-img" class="cone-img">
+            <label>Radius:
+                <input type="number" placeholder="Enter Radius" id="cone-radius">
+            </label>
+            <label>Height:
+                <input type="number" placeholder="Enter Height" id="cone-height">
+            </label>
+            <button onclick="calculatecone()">Calculate</button>
+            <div class="result" id="cone-result"></div>
+          </div>
+            <!-- Cylinder card -->
+             <div class="card">
+                 <h2>Cylinder</h2>
+            <img src="cylinder.jpeg" alt="cylinder-image" class="cylinder-img">
+            <label>Radius:
+                <input type="number" placeholder="Enter Radius" id="cylinder-radius">
+            </label>
+            <label>Height:
+                <input type="number" placeholder="Enter Height" id="cylinder-height">
+            </label>
+            <button onclick="calculatecylinder()">Calculate</button>
+            <div class="result" id="cylinder-result"></div>
+             </div>
+             <!-- Sphere card -->
+            <div class="card">
+                 <h2>Sphere</h2>
+            <img src="sphere-radius-hdr.png" alt="Sphere-img" class="Sphere-img">
+            <label>Radius:
+                <input type="number" placeholder="Enter Radius" id="sphere-radius">
+            </label>
+            <button onclick="calculatesphere()">Calculate</button> 
+            <div class="result" id="sphere-result"></div>
+            </div>
+             <!-- cube card -->
+         <div class="card">
+            <h2>Cube</h2>
+            <img src="cube.png" alt="cube-img" class="cube-img">
+            <label>Side Length:
+                <input type="number" placeholder="Enter Side Length" id="cube-side">
+            </label>
+            <button onclick="calculatecube()">Calculate</button>
+            <div class="result" id="cube-result"></div>
+         </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+*{
+  border: 0;
+  margin: 0;
+}
+
+.header{
+    margin: 0;
+    border: 0;
+    padding: 14px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.769);
+    color: white;
+    font-size: 28px;
+}
+
+.container{
+    margin: 0;
+    border: 0;
+    padding: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(98, 93, 93);
+}
+
+.container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  perspective: 1000px;
+}
+
+.card {
+  background: white;
+  width: 250px;
+  padding: 35px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  transition: transform 0.5s;
+}
+.card:hover {
+  transform: scale(1.02);
+  padding: 30px;
+}
+
+.card h2 {
+  margin-top: 0;
+  text-align: center;
+}
+.card label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.card input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.card button {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #0056b3;
+}
+
+.result {
+  margin-top: 1rem;
+  background-color: #f8f9fa;
+  padding: 0.5rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.cube-img{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Sphere-img{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}   
+
+.cylinder-img{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cone-img{
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.rectangular-img{
+    height: 77px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
